@@ -1,0 +1,28 @@
+/* Write your code here. */
+.super-league-bg-container {
+  background-color: #0f172a;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.super-league-heading {
+  color: #f8fafc;
+  font-size: 30px;
+}
+.super-league-image {
+  width: 50%;
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 576px) and(max-width:768px) {
+  .super-league-bg-container {
+    width: 25%;
+    padding: 20px;
+  }
+}
